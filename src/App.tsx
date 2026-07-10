@@ -1,5 +1,5 @@
 const App = () => {
-  return <>TalkSphere | Messaging</>;
+	return <>TalkSphere | Messaging</>;
 };
 
 export default App;
