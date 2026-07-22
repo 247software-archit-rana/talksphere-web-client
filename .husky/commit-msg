@@ -1,0 +1,9 @@
+msg_file="$1"
+
+# Strip comment lines (#...) and all whitespace, then check what's left
+content=$(grep -v '^#' "$msg_file" | tr -d '[:space:]')
+
+if [ -z "$content" ]; then
+  echo "❌ Commit message cannot be empty."
+  exit 1
+fi
