@@ -5,8 +5,8 @@
 	"singleQuote": true,
 	"jsxSingleQuote": true,
 	"trailingComma": "es5",
-	"tailwindStylesheet": "./src/index.css",
 	"plugins": ["prettier-plugin-tailwindcss"],
+	"tailwindStylesheet": "./src/styles/index.css",
 	"overrides": [
 		{
 			"files": "**/*.{yml,yaml}",
