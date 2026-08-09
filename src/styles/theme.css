@@ -1,0 +1,89 @@
+:root {
+	color-scheme: light dark;
+
+	/* font */
+	--ts-font-family: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+
+	/* teal */
+	--ts-teal-100: #c2ede8;
+	--ts-teal-200: #8fddd5;
+	--ts-teal-300: #52c9be;
+	--ts-teal-400: #22ada2;
+	--ts-teal-500: #11998e;
+	--ts-teal-600: #0b6e68;
+	--ts-teal-700: #085551;
+	--ts-teal-800: #054441;
+	--ts-teal-900: #032b29;
+
+	/* green */
+	--ts-green-100: #d2fbe1;
+	--ts-green-200: #a6f6c4;
+	--ts-green-300: #6bf2a0;
+	--ts-green-400: #38ef7d;
+	--ts-green-500: #14d666;
+	--ts-green-600: #0fae55;
+	--ts-green-700: #0c8845;
+	--ts-green-800: #096536;
+	--ts-green-900: #064224;
+
+	/* gray */
+	--ts-gray-100: #f4f5f5;
+	--ts-gray-200: #eaebec;
+	--ts-gray-300: #e2e4e5;
+	--ts-gray-400: #c6c9cb;
+	--ts-gray-500: #9ba0a3;
+	--ts-gray-600: #6e7275;
+	--ts-gray-700: #4a4e51;
+	--ts-gray-800: #2a2d2f;
+	--ts-gray-900: #141617;
+
+	/* text */
+	--ts-text-primary: light-dark(#141617, #edeef0);
+	--ts-text-secondary: light-dark(#4a4e51, #a9adb0);
+	--ts-text-tertiary: light-dark(#6e7275, #909497);
+
+	/* surface */
+	--ts-bg-primary: light-dark(#fafafa, #0b0b0c);
+	--ts-bg-secondary: light-dark(#ffffff, #141516);
+	--ts-bg-tertiary: light-dark(#f4f5f5, #1f2123);
+	--ts-bg-quaternary: light-dark(#eaebec, #292c2e);
+
+	/* border */
+	--ts-border-primary: light-dark(#e2e4e5, #33363a);
+	--ts-border-secondary: light-dark(#c6c9cb, #484c51);
+
+	/* shadow */
+	--ts-shadow-primary: light-dark(rgba(0, 0, 0, 0.12), rgba(255, 255, 255, 0.1));
+
+	/* status */
+	--ts-info: light-dark(#2f80ed, #29b6f6);
+	--ts-error: light-dark(#ff4d4f, #fd5631);
+	--ts-success: light-dark(#52c41a, #66bb6a);
+	--ts-warning: light-dark(#faad14, #e0b400);
+	--ts-bg-info: light-dark(#eaf2fd, #1f2d3f);
+	--ts-bg-error: light-dark(#fdeced, #422325);
+	--ts-bg-success: light-dark(#e8f8f1, #19302b);
+	--ts-bg-warning: light-dark(#fef5e4, #342b1a);
+	--ts-info-hover: light-dark(#1368db, #55c5f8);
+	--ts-error-hover: light-dark(#ff1f22, #fd7b5e);
+	--ts-success-hover: light-dark(#419b15, #86c989);
+	--ts-warning-hover: light-dark(#db9405, #ffd00f);
+
+	/* brand */
+	--ts-brand: light-dark(#11998e, #38ef7d);
+	--ts-bg-brand: light-dark(#e6f7f5, #1a302b);
+	--ts-brand-hover: light-dark(#0b6e68, #6bf2a0);
+	--ts-brand-active: light-dark(#085551, #14d666);
+	--ts-shadow-brand: light-dark(#11998e3d, #38ef7d2e);
+
+	/* gradient */
+	--ts-gradient: linear-gradient(135deg, #38ef7d 0%, #11998e 100%);
+}
+
+:root[data-theme='light'] {
+	color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+	color-scheme: dark;
+}

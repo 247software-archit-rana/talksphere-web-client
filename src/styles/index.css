@@ -1,5 +1,8 @@
 @import 'tailwindcss';
 
+/* theme layer */
+@import './theme.css' layer(theme);
+
 html,
 body {
 	padding: 0;
