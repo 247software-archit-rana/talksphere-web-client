@@ -1,0 +1,609 @@
+/*
+  ----------------------
+  font 
+  ----------------------
+*/
+@utility font-jakarta {
+	font-family: var(--ts-font-family);
+}
+
+/*
+  ----------------------
+  text
+  ----------------------
+*/
+@utility text-primary {
+	color: var(--ts-text-primary);
+}
+
+@utility text-secondary {
+	color: var(--ts-text-secondary);
+}
+
+@utility text-tertiary {
+	color: var(--ts-text-tertiary);
+}
+
+/*
+  ----------------------
+  surface
+  ----------------------
+*/
+@utility bg-primary {
+	background-color: var(--ts-bg-primary);
+}
+
+@utility bg-secondary {
+	background-color: var(--ts-bg-secondary);
+}
+
+@utility bg-tertiary {
+	background-color: var(--ts-bg-tertiary);
+}
+
+@utility bg-quaternary {
+	background-color: var(--ts-bg-quaternary);
+}
+
+/*
+  ----------------------
+  border
+  ----------------------
+*/
+
+/* border-primary */
+@utility border-primary {
+	border-color: var(--ts-border-primary);
+}
+
+@utility border-x-primary {
+	border-inline-color: var(--ts-border-primary);
+}
+
+@utility border-y-primary {
+	border-block-color: var(--ts-border-primary);
+}
+
+@utility border-l-primary {
+	border-left-color: var(--ts-border-primary);
+}
+
+@utility border-r-primary {
+	border-right-color: var(--ts-border-primary);
+}
+
+@utility border-t-primary {
+	border-top-color: var(--ts-border-primary);
+}
+
+@utility border-b-primary {
+	border-bottom-color: var(--ts-border-primary);
+}
+
+@utility border-s-primary {
+	border-inline-start-color: var(--ts-border-primary);
+}
+
+@utility border-e-primary {
+	border-inline-end-color: var(--ts-border-primary);
+}
+
+@utility border-bs-primary {
+	border-block-start-color: var(--ts-border-primary);
+}
+
+@utility border-be-primary {
+	border-block-end-color: var(--ts-border-primary);
+}
+
+/* border-secondary */
+@utility border-secondary {
+	border-color: var(--ts-border-secondary);
+}
+
+@utility border-x-secondary {
+	border-inline-color: var(--ts-border-secondary);
+}
+
+@utility border-y-secondary {
+	border-block-color: var(--ts-border-secondary);
+}
+
+@utility border-l-secondary {
+	border-left-color: var(--ts-border-secondary);
+}
+
+@utility border-r-secondary {
+	border-right-color: var(--ts-border-secondary);
+}
+
+@utility border-t-secondary {
+	border-top-color: var(--ts-border-secondary);
+}
+
+@utility border-b-secondary {
+	border-bottom-color: var(--ts-border-secondary);
+}
+
+@utility border-s-secondary {
+	border-inline-start-color: var(--ts-border-secondary);
+}
+
+@utility border-e-secondary {
+	border-inline-end-color: var(--ts-border-secondary);
+}
+
+@utility border-bs-secondary {
+	border-block-start-color: var(--ts-border-secondary);
+}
+
+@utility border-be-secondary {
+	border-block-end-color: var(--ts-border-secondary);
+}
+
+/*
+  ----------------------
+  shadow
+  ----------------------
+*/
+@utility shadow-primary {
+	--tw-shadow-color: var(--ts-shadow-primary);
+}
+
+@utility inset-shadow-primary {
+	--tw-inset-shadow-color: var(--ts-shadow-primary);
+}
+
+@utility ring-primary {
+	--tw-ring-color: var(--ts-shadow-primary);
+}
+
+@utility inset-ring-primary {
+	--tw-inset-ring-color: var(--ts-shadow-primary);
+}
+
+@utility text-shadow-primary {
+	--tw-text-shadow-color: var(--ts-shadow-primary);
+}
+
+@utility drop-shadow-primary {
+	--tw-drop-shadow-color: var(--ts-shadow-primary);
+}
+
+/*
+  ----------------------
+  status
+  ----------------------
+*/
+
+/* info */
+@utility text-info {
+	color: var(--ts-info);
+}
+
+@utility caret-info {
+	caret-color: var(--ts-info);
+}
+
+@utility accent-info {
+	accent-color: var(--ts-info);
+}
+
+@utility decoration-info {
+	text-decoration-color: var(--ts-info);
+}
+
+@utility bg-info {
+	color: var(--ts-info);
+	background-color: var(--ts-bg-info);
+}
+
+@utility fill-info {
+	fill: var(--ts-info);
+}
+
+@utility stroke-info {
+	stroke: var(--ts-info);
+}
+
+@utility outline-info {
+	outline-color: var(--ts-info);
+}
+
+@utility border-info {
+	border-color: var(--ts-info);
+}
+
+@utility border-x-info {
+	border-inline-color: var(--ts-info);
+}
+
+@utility border-y-info {
+	border-block-color: var(--ts-info);
+}
+
+@utility border-l-info {
+	border-left-color: var(--ts-info);
+}
+
+@utility border-r-info {
+	border-right-color: var(--ts-info);
+}
+
+@utility border-t-info {
+	border-top-color: var(--ts-info);
+}
+
+@utility border-b-info {
+	border-bottom-color: var(--ts-info);
+}
+
+@utility border-s-info {
+	border-inline-start-color: var(--ts-info);
+}
+
+@utility border-e-info {
+	border-inline-end-color: var(--ts-info);
+}
+
+@utility border-bs-info {
+	border-block-start-color: var(--ts-info);
+}
+
+@utility border-be-info {
+	border-block-end-color: var(--ts-info);
+}
+
+/* error */
+@utility text-error {
+	color: var(--ts-error);
+}
+
+@utility caret-error {
+	caret-color: var(--ts-error);
+}
+
+@utility accent-error {
+	accent-color: var(--ts-error);
+}
+
+@utility decoration-error {
+	text-decoration-color: var(--ts-error);
+}
+
+@utility bg-error {
+	color: var(--ts-error);
+	background-color: var(--ts-bg-error);
+}
+
+@utility fill-error {
+	fill: var(--ts-error);
+}
+
+@utility stroke-error {
+	stroke: var(--ts-error);
+}
+
+@utility outline-error {
+	outline-color: var(--ts-error);
+}
+
+@utility border-error {
+	border-color: var(--ts-error);
+}
+
+@utility border-x-error {
+	border-inline-color: var(--ts-error);
+}
+
+@utility border-y-error {
+	border-block-color: var(--ts-error);
+}
+
+@utility border-l-error {
+	border-left-color: var(--ts-error);
+}
+
+@utility border-r-error {
+	border-right-color: var(--ts-error);
+}
+
+@utility border-t-error {
+	border-top-color: var(--ts-error);
+}
+
+@utility border-b-error {
+	border-bottom-color: var(--ts-error);
+}
+
+@utility border-s-error {
+	border-inline-start-color: var(--ts-error);
+}
+
+@utility border-e-error {
+	border-inline-end-color: var(--ts-error);
+}
+
+@utility border-bs-error {
+	border-block-start-color: var(--ts-error);
+}
+
+@utility border-be-error {
+	border-block-end-color: var(--ts-error);
+}
+
+/* success */
+@utility text-success {
+	color: var(--ts-success);
+}
+
+@utility caret-success {
+	caret-color: var(--ts-success);
+}
+
+@utility accent-success {
+	accent-color: var(--ts-success);
+}
+
+@utility decoration-success {
+	text-decoration-color: var(--ts-success);
+}
+
+@utility bg-success {
+	color: var(--ts-success);
+	background-color: var(--ts-bg-success);
+}
+
+@utility fill-success {
+	fill: var(--ts-success);
+}
+
+@utility stroke-success {
+	stroke: var(--ts-success);
+}
+
+@utility outline-success {
+	outline-color: var(--ts-success);
+}
+
+@utility border-success {
+	border-color: var(--ts-success);
+}
+
+@utility border-x-success {
+	border-inline-color: var(--ts-success);
+}
+
+@utility border-y-success {
+	border-block-color: var(--ts-success);
+}
+
+@utility border-l-success {
+	border-left-color: var(--ts-success);
+}
+
+@utility border-r-success {
+	border-right-color: var(--ts-success);
+}
+
+@utility border-t-success {
+	border-top-color: var(--ts-success);
+}
+
+@utility border-b-success {
+	border-bottom-color: var(--ts-success);
+}
+
+@utility border-s-success {
+	border-inline-start-color: var(--ts-success);
+}
+
+@utility border-e-success {
+	border-inline-end-color: var(--ts-success);
+}
+
+@utility border-bs-success {
+	border-block-start-color: var(--ts-success);
+}
+
+@utility border-be-success {
+	border-block-end-color: var(--ts-success);
+}
+
+/* warning */
+@utility text-warning {
+	color: var(--ts-warning);
+}
+
+@utility caret-warning {
+	caret-color: var(--ts-warning);
+}
+
+@utility accent-warning {
+	accent-color: var(--ts-warning);
+}
+
+@utility decoration-warning {
+	text-decoration-color: var(--ts-warning);
+}
+
+@utility bg-warning {
+	color: var(--ts-warning);
+	background-color: var(--ts-bg-warning);
+}
+
+@utility fill-warning {
+	fill: var(--ts-warning);
+}
+
+@utility stroke-warning {
+	stroke: var(--ts-warning);
+}
+
+@utility outline-warning {
+	outline-color: var(--ts-warning);
+}
+
+@utility border-warning {
+	border-color: var(--ts-warning);
+}
+
+@utility border-x-warning {
+	border-inline-color: var(--ts-warning);
+}
+
+@utility border-y-warning {
+	border-block-color: var(--ts-warning);
+}
+
+@utility border-l-warning {
+	border-left-color: var(--ts-warning);
+}
+
+@utility border-r-warning {
+	border-right-color: var(--ts-warning);
+}
+
+@utility border-t-warning {
+	border-top-color: var(--ts-warning);
+}
+
+@utility border-b-warning {
+	border-bottom-color: var(--ts-warning);
+}
+
+@utility border-s-warning {
+	border-inline-start-color: var(--ts-warning);
+}
+
+@utility border-e-warning {
+	border-inline-end-color: var(--ts-warning);
+}
+
+@utility border-bs-warning {
+	border-block-start-color: var(--ts-warning);
+}
+
+@utility border-be-warning {
+	border-block-end-color: var(--ts-warning);
+}
+
+/*
+  ----------------------
+  brand
+  ----------------------
+*/
+@utility text-brand {
+	color: var(--ts-brand);
+}
+
+@utility caret-brand {
+	caret-color: var(--ts-brand);
+}
+
+@utility accent-brand {
+	accent-color: var(--ts-brand);
+}
+
+@utility decoration-brand {
+	text-decoration-color: var(--ts-brand);
+}
+
+@utility bg-brand {
+	background-color: var(--ts-bg-brand);
+}
+
+@utility fill-brand {
+	fill: var(--ts-brand);
+}
+
+@utility stroke-brand {
+	stroke: var(--ts-brand);
+}
+
+@utility outline-brand {
+	outline-color: var(--ts-brand);
+}
+
+@utility border-brand {
+	border-color: var(--ts-brand);
+}
+
+@utility border-x-brand {
+	border-inline-color: var(--ts-brand);
+}
+
+@utility border-y-brand {
+	border-block-color: var(--ts-brand);
+}
+
+@utility border-l-brand {
+	border-left-color: var(--ts-brand);
+}
+
+@utility border-r-brand {
+	border-right-color: var(--ts-brand);
+}
+
+@utility border-t-brand {
+	border-top-color: var(--ts-brand);
+}
+
+@utility border-b-brand {
+	border-bottom-color: var(--ts-brand);
+}
+
+@utility border-s-brand {
+	border-inline-start-color: var(--ts-brand);
+}
+
+@utility border-e-brand {
+	border-inline-end-color: var(--ts-brand);
+}
+
+@utility border-bs-brand {
+	border-block-start-color: var(--ts-brand);
+}
+
+@utility border-be-brand {
+	border-block-end-color: var(--ts-brand);
+}
+
+@utility shadow-brand {
+	--tw-shadow-color: var(--ts-shadow-brand);
+}
+
+@utility inset-shadow-brand {
+	--tw-inset-shadow-color: var(--ts-shadow-brand);
+}
+
+@utility ring-brand {
+	--tw-ring-color: var(--ts-shadow-brand);
+}
+
+@utility inset-ring-brand {
+	--tw-inset-ring-color: var(--ts-shadow-brand);
+}
+
+@utility text-shadow-brand {
+	--tw-text-shadow-color: var(--ts-shadow-brand);
+}
+
+@utility drop-shadow-brand {
+	--tw-drop-shadow-color: var(--ts-shadow-brand);
+}
+
+/*
+  ----------------------
+  gradient
+  ----------------------
+*/
+@utility text-gradient {
+	color: transparent;
+	background-clip: text;
+	background-image: var(--ts-gradient);
+}
+
+@utility bg-gradient {
+	background-image: var(--ts-gradient);
+}
