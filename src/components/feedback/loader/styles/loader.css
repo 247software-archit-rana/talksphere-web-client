@@ -1,0 +1,28 @@
+.ts-loader-inherit {
+	@apply gap-2.5 leading-none;
+	font-size: inherit;
+}
+
+.ts-loader-current {
+	@apply text-current;
+}
+
+.ts-loader-primary {
+	color: var(--ts-loader-primary);
+}
+
+.ts-loader-info {
+	color: var(--ts-loader-info);
+}
+
+.ts-loader-error {
+	color: var(--ts-loader-error);
+}
+
+.ts-loader-success {
+	color: var(--ts-loader-success);
+}
+
+.ts-loader-warning {
+	color: var(--ts-loader-warning);
+}

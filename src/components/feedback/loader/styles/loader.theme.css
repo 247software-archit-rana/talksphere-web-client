@@ -1,0 +1,7 @@
+:root {
+	--ts-loader-primary: var(--ts-brand);
+	--ts-loader-info: var(--ts-info);
+	--ts-loader-error: var(--ts-error);
+	--ts-loader-success: var(--ts-success);
+	--ts-loader-warning: var(--ts-warning);
+}

@@ -2,6 +2,10 @@
 
 /* theme layer */
 @import './theme.css' layer(theme);
+@import '../components/feedback/loader/styles/loader.theme.css' layer(theme);
+
+/* components layer */
+@import '../components/feedback/loader/styles/loader.css' layer(components);
 
 /* utilities layer */
 @import './utilities.css';
