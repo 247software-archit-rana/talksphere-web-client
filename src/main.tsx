@@ -3,6 +3,8 @@ import { createRoot } from 'react-dom/client';
 
 import App from './App.tsx';
 
+import { LocaleProvider } from '@/contexts';
+
 import '@/i18n';
 
 import './styles/index.css';
@@ -10,7 +12,9 @@ import './styles/index.css';
 createRoot(document.getElementById('app')!).render(
 	<StrictMode>
 		<Suspense>
-			<App />
+			<LocaleProvider>
+				<App />
+			</LocaleProvider>
 		</Suspense>
 	</StrictMode>
 );
