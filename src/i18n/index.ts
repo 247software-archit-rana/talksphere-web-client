@@ -3,7 +3,7 @@ import { initReactI18next } from 'react-i18next';
 import resourcesToBackend from 'i18next-resources-to-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-import { COMMON_NAMESPACE, SUPPORTED_LANGUAGES, FALLBACK_LANGUAGE } from '@/constants';
+import { LS_LOCALE_KEY, COMMON_NAMESPACE, SUPPORTED_LANGUAGES, FALLBACK_LANGUAGE } from '@/constants';
 
 i18n.use(resourcesToBackend((language: string, namespace: string) => import(`./locales/${namespace}/${language}.json`)))
 	.use(LanguageDetector)
@@ -18,11 +18,10 @@ i18n.use(resourcesToBackend((language: string, namespace: string) => import(`./l
 		interpolation: {
 			escapeValue: false,
 		},
+		detection: {
+			lookupLocalStorage: LS_LOCALE_KEY,
+			convertDetectedLanguage: (lng) => lng.split('-')[0],
+		},
 	});
-
-i18n.on('languageChanged', (lang) => {
-	document.documentElement.lang = lang;
-	document.documentElement.dir = i18n.dir(lang);
-});
 
 export default i18n;
